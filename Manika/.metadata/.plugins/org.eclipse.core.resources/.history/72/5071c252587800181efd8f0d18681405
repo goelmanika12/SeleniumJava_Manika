@@ -1,0 +1,44 @@
+package com.steps.serenity;
+
+import com.pages.GoogleSearchPageObject;
+import com.pages.ResultsPageObject;
+import net.thucydides.core.annotations.Step;
+import net.thucydides.core.steps.ScenarioSteps;
+
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.containsString;
+
+
+public class EndUserSteps {
+	
+	GoogleSearchPageObject gPage;
+    ResultsPageObject rPage;;
+
+    @Step
+    public void openGoogleSearch() {
+        gPage.open();
+    }
+
+    @Step
+    public void searchKeyword(String keyword) {
+        gPage.enter_keyword(keyword);
+        gPage.lookup_keyword();
+    }
+
+    @Step
+    public void verifyNumberOfLinks(int count) {
+        int totalLinksCount = rPage.linkCount();
+    	assertThat(totalLinksCount, is(count));
+    }
+
+    @Step
+    public void is_the_home_page() {
+        dictionaryPage.open();
+    }
+
+    @Step
+    public void looks_for(String term) {
+        enters(term);
+        starts_search();
+    }
+}

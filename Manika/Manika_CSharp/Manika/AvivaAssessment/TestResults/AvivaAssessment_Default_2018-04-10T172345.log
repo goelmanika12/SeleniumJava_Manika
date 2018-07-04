@@ -1,0 +1,101 @@
+﻿2018-04-10T17:23:45.3385003+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-04-10T17:23:45.4235173+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-04-10T17:23:45.4235173+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\Manika\AvivaAssessment\AvivaAssessment\bin\Debug\AvivaAssessment.dll
+2018-04-10T17:23:45.4245175+05:30;VSTestExecutionThread;Info;Profile: Default
+2018-04-10T17:23:50.5123651+05:30;Thread#13;Info;Discovering target: Default
+2018-04-10T17:23:50.5133652+05:30;Thread#13;Info;Discovering tests from assembly: D:\Manika\AvivaAssessment\AvivaAssessment\bin\Debug\AvivaAssessment.dll
+Appdomain Disposed
+Test Suite Dump
+#0: AvivaAssessment/Default - 
+#1: Default - 
+#3: AvivaAssessment - 
+#4: AvivaAssessment.Features.Print5ThLinkTextOfAvivaFeature - 
+#5: SearchWithAvivaKeywordOnGoogleHomePageAndPrintThe5ThLinkText - 
+#7: SearchWithAvivaKeywordOnGoogleHomePageAndInvalidLoginOnAVIVALoginPage - 
+#6: SearchWithAvivaKeywordOnGoogleHomePageAndPrintThe5ThLinkText("AVIVA",null) - TestAssembly:AvivaAssessment/TestClass:AvivaAssessment.Features.Print5ThLinkTextOfAvivaFeature/ParameterizedTest:SearchWithAvivaKeywordOnGoogleHomePageAndPrintThe5ThLinkText/TestMethod:SearchWithAvivaKeywordOnGoogleHomePageAndPrintThe5ThLinkText(%22AVIVA%22%2cnull)
+#8: SearchWithAvivaKeywordOnGoogleHomePageAndInvalidLoginOnAVIVALoginPage("AVIVA",null) - TestAssembly:AvivaAssessment/TestClass:AvivaAssessment.Features.Print5ThLinkTextOfAvivaFeature/ParameterizedTest:SearchWithAvivaKeywordOnGoogleHomePageAndInvalidLoginOnAVIVALoginPage/TestMethod:SearchWithAvivaKeywordOnGoogleHomePageAndInvalidLoginOnAVIVALoginPage(%22AVIVA%22%2cnull)
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #6 from normal test queue 
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for AvivaAssessment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\manikgoe\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.7.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #6/0 is started on thread #0
+Thread#0:TestItem#6:Scheduler: reschedule tests for testitem #6
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #6/0 is finished on thread #0 as Failed within 0.030003 seconds
+Thread#0: Test #6/1 is started on thread #0
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #6/1 is finished on thread #0 as Failed within 0.0040004 seconds
+Thread#0: Test #6/2 is started on thread #0
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #8 from normal test queue 
+Thread#0:Scheduler: considering testitem #8 for thread 0
+Thread#0:TestItem#8:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#8:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#8:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #8 for thread 0
+Thread#0:Scheduler: Test #8 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #6/2 is finished on thread #0 as Failed within 0.0050005 seconds
+Thread#0: Test #8/0 is started on thread #0
+Thread#0:TestItem#8:Scheduler: reschedule tests for testitem #8
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #8
+Thread#0:Scheduler: considering testitem #8 for thread 0
+Thread#0:TestItem#8:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#8:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#8:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #8 for thread 0
+Thread#0:Scheduler: Test #8 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #8/0 is finished on thread #0 as Failed within 0.0070007 seconds
+Thread#0: Test #8/1 is started on thread #0
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #8
+Thread#0:Scheduler: considering testitem #8 for thread 0
+Thread#0:TestItem#8:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#8:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#8:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #8 for thread 0
+Thread#0:Scheduler: Test #8 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #8/1 is finished on thread #0 as Failed within 0.0050005 seconds
+Thread#0: Test #8/2 is started on thread #0
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #8/2 is finished on thread #0 as Failed within 0.0070007 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 2 (test executions: 6)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 2

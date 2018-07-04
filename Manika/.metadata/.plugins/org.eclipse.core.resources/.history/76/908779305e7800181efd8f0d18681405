@@ -1,0 +1,55 @@
+package com.steps;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+import com.steps.serenity.EndUserSteps;
+
+public class DefinitionSteps {
+	
+	EndUserSteps EndUser;
+	@Given("^launch the google home page$")
+	public void launch_the_google_home_page(){
+	    // Write code here that turns the phrase above into concrete actions
+	    EndUser.openGoogleSearch();
+	}
+
+
+	@Given("^search with the string 'AVIVA'$")
+	public void search_with_the_string(String keyword) {
+	    // Write code here that turns the phrase above into concrete actions
+	    EndUser.searchKeyword(keyword);
+	}
+
+	@When("^click on search button$")
+	public void click_on_search_button() {
+	    // Write code here that turns the phrase above into concrete actions
+	    EndUser.clickSearch();
+	}
+
+	@Then("^prints the (\\d+)th link text of results page\\.$")
+	public void prints_the_th_link_text_of_results_page(int linkNumber) {
+	    // Write code here that turns the phrase above into concrete actions
+	    EndUser.getFifthLinkText(5);
+	}
+
+	@Then("^number of links should be (\\d+)$")
+	public void number_of_links_should_be(int count){
+	    // Write code here that turns the phrase above into concrete actions
+	    EndUser.verifyNumberOfLinks(count);
+	}
+
+	@Then("^I click on Aviva link and login button without providing credentials$")
+	public void i_click_on_Aviva_link_and_login_button_without_providing_credentials(){
+	    // Write code here that turns the phrase above into concrete actions
+	    EndUser.invalidAvivaLogin();
+	}
+
+	@Then("^the result should be the error 'Please fill in all (\\d+) fields\\.' display$")
+	public void the_result_should_be_the_error(String message){
+	    // Write code here that turns the phrase above into concrete actions
+	    EndUser.verifyErrorMessage(message);
+	}
+	
+}

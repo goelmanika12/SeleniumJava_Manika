@@ -1,0 +1,73 @@
+﻿2018-04-12T16:19:21.7138829+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-04-12T16:19:21.8658829+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-04-12T16:19:21.8658829+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\Manika\AvivaAssessment\AvivaAssessment\bin\Debug\AvivaAssessment.dll
+2018-04-12T16:19:21.8668829+05:30;VSTestExecutionThread;Info;Profile: Default
+2018-04-12T16:19:34.9608829+05:30;VSTestExecutionThread;Info;Discovering target: Default
+2018-04-12T16:19:34.9608829+05:30;VSTestExecutionThread;Info;Discovering tests from assembly: D:\Manika\AvivaAssessment\AvivaAssessment\bin\Debug\AvivaAssessment.dll
+2018-04-12T16:19:57.1158829+05:30;VSTestExecutionThread;Info;Log file: file:///D:\Manika\AvivaAssessment\TestResults\AvivaAssessment_Default_2018-04-12T161921.log
+2018-04-12T16:19:57.1168829+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution finished
+2018-04-12T16:20:57.8188829+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-04-12T16:20:57.8388829+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-04-12T16:20:57.8398829+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\Manika\AvivaAssessment\AvivaAssessment\bin\Debug\AvivaAssessment.dll
+2018-04-12T16:20:57.8408829+05:30;VSTestExecutionThread;Info;Profile: Default
+2018-04-12T16:21:08.8438829+05:30;Thread#20;Info;Discovering target: Default
+2018-04-12T16:21:08.8458829+05:30;Thread#20;Info;Discovering tests from assembly: D:\Manika\AvivaAssessment\AvivaAssessment\bin\Debug\AvivaAssessment.dll
+Appdomain Disposed
+Test Suite Dump
+#0: AvivaAssessment/Default - 
+#1: Default - 
+#2: AvivaAssessment - 
+#3: Print 5th link text of Aviva - 
+#4: Search with Aviva keyword on Google home page and print the 5th link text, AVIVA - TestAssembly:AvivaAssessment/Feature:Print+5th+link+text+of+Aviva/Scenario:Search+with+Aviva+keyword+on+Google+home+page+and+print+the+5th+link+text%2c+AVIVA
+#5: Search with Aviva keyword on Google home page and Invalid login on AVIVA login page, AVIVA - TestAssembly:AvivaAssessment/Feature:Print+5th+link+text+of+Aviva/Scenario:Search+with+Aviva+keyword+on+Google+home+page+and+Invalid+login+on+AVIVA+login+page%2c+AVIVA
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for AvivaAssessment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\manikgoe\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.7.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given launch the google home page
+Thread#0:T:done: StepDefinitions.GivenLaunchTheGoogleHomePage() (8.2s)
+Thread#0:T:SCREENSHOT[ file:///D:\Manika\AvivaAssessment\TestResults\tmp9DF3.jpg ]SCREENSHOT
+Thread#0:B:And search with the string 'AVIVA'
+Thread#0:T:done: StepDefinitions.GivenSearchWithTheString("AVIVA") (0.1s)
+Thread#0:T:SCREENSHOT[ file:///D:\Manika\AvivaAssessment\TestResults\tmp9FA9.jpg ]SCREENSHOT
+Thread#0:B:When click on search button
+Thread#0:T:done: StepDefinitions.WhenClickOnSearchButton() (4.6s)
+Thread#0:T:SCREENSHOT[ file:///D:\Manika\AvivaAssessment\TestResults\tmpB30B.jpg ]SCREENSHOT
+Thread#0:B:Then prints the 5th link text of results page.
+Thread#0:T:Link text of 5 th link is:e-Statement
+Thread#0:T:done: StepDefinitions.ThenPrintsTheThLinkTextOfResultsPage_(5) (0.0s)
+Thread#0:T:SCREENSHOT[ file:///D:\Manika\AvivaAssessment\TestResults\tmpB4B1.jpg ]SCREENSHOT
+Thread#0:B:And number of links should be 10
+Thread#0:T:Total number of links returned:11
+Thread#0:T:Expected number of links returned :10
+Thread#0:T:error: Object reference not set to an instance of an object.
+Thread#0:T:SCREENSHOT[ file:///D:\Manika\AvivaAssessment\TestResults\tmpB638.jpg ]SCREENSHOT
+Cancelling because configured number of failures reached
+Thread#0: Test #4/0 is finished on thread #0 as Failed within 20.679 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#-1:Scheduler: considering testitem #5 for thread -1
+Thread#-1:Scheduler: using testitem #5 for thread -1
+Thread#-1:Scheduler: Test #5 is scheduled for thread
+Thread#-1: Test #5/0 is started on thread #-1
+Thread#-1: Test #5/0 is finished on thread #-1 as Skipped within 0 seconds
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 2
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 1
+Failed: 1

@@ -1,0 +1,88 @@
+﻿2018-04-12T16:49:26.8952137+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-04-12T16:49:26.9862228+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-04-12T16:49:26.9862228+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\Manika\AvivaAssessment\AvivaAssessment\bin\Debug\AvivaAssessment.dll
+2018-04-12T16:49:26.9872229+05:30;VSTestExecutionThread;Info;Profile: Default
+2018-04-12T16:49:33.0828324+05:30;Thread#14;Info;Discovering target: Default
+2018-04-12T16:49:33.0828324+05:30;Thread#14;Info;Discovering tests from assembly: D:\Manika\AvivaAssessment\AvivaAssessment\bin\Debug\AvivaAssessment.dll
+Appdomain Disposed
+Test Suite Dump
+#0: AvivaAssessment/Default - 
+#1: Default - 
+#2: AvivaAssessment - 
+#3: Print 5th link text of Aviva - 
+#4: Search with Aviva keyword on Google home page and print the 5th link text, AVIVA - TestAssembly:AvivaAssessment/Feature:Print+5th+link+text+of+Aviva/Scenario:Search+with+Aviva+keyword+on+Google+home+page+and+print+the+5th+link+text%2c+AVIVA
+#5: Search with Aviva keyword on Google home page and Invalid login on AVIVA login page, AVIVA - TestAssembly:AvivaAssessment/Feature:Print+5th+link+text+of+Aviva/Scenario:Search+with+Aviva+keyword+on+Google+home+page+and+Invalid+login+on+AVIVA+login+page%2c+AVIVA
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for AvivaAssessment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\manikgoe\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.7.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given launch the google home page
+Thread#0:T:done: StepDefinitions.GivenLaunchTheGoogleHomePage() (10.0s)
+Thread#0:T:SCREENSHOT[ file:///D:\Manika\AvivaAssessment\TestResults\tmpA732.jpg ]SCREENSHOT
+Thread#0:B:And search with the string 'AVIVA'
+Thread#0:T:done: StepDefinitions.GivenSearchWithTheString("AVIVA") (0.1s)
+Thread#0:T:SCREENSHOT[ file:///D:\Manika\AvivaAssessment\TestResults\tmpA907.jpg ]SCREENSHOT
+Thread#0:B:When click on search button
+Thread#0:T:done: StepDefinitions.WhenClickOnSearchButton() (4.6s)
+Thread#0:T:SCREENSHOT[ file:///D:\Manika\AvivaAssessment\TestResults\tmpBC88.jpg ]SCREENSHOT
+Thread#0:B:Then prints the 5th link text of results page.
+Thread#0:T:Link text of 5 th link is:e-Statement
+Thread#0:T:done: StepDefinitions.ThenPrintsTheThLinkTextOfResultsPage_(5) (0.0s)
+Thread#0:T:SCREENSHOT[ file:///D:\Manika\AvivaAssessment\TestResults\tmpBE2E.jpg ]SCREENSHOT
+Thread#0:B:And number of links should be 10
+Thread#0:T:Total number of links returned:11
+Thread#0:T:Expected number of links returned :10
+Thread#0:T:error: Assert.AreEqual failed. Expected:<10>. Actual:<11>. 
+Thread#0:T:SCREENSHOT[ file:///D:\Manika\AvivaAssessment\TestResults\tmpBFA5.jpg ]SCREENSHOT
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/0 is finished on thread #0 as Failed within 22.862286 seconds
+Thread#0: Test #5/0 is started on thread #0
+Thread#0:B:Given launch the google home page
+Thread#0:T:done: StepDefinitions.GivenLaunchTheGoogleHomePage() (11.2s)
+Thread#0:T:SCREENSHOT[ file:///D:\Manika\AvivaAssessment\TestResults\tmp3C7.jpg ]SCREENSHOT
+Thread#0:B:And search with the string 'AVIVA'
+Thread#0:T:done: StepDefinitions.GivenSearchWithTheString("AVIVA") (0.1s)
+Thread#0:T:SCREENSHOT[ file:///D:\Manika\AvivaAssessment\TestResults\tmp58D.jpg ]SCREENSHOT
+Thread#0:B:When click on search button
+Thread#0:T:done: StepDefinitions.WhenClickOnSearchButton() (3.9s)
+Thread#0:T:SCREENSHOT[ file:///D:\Manika\AvivaAssessment\TestResults\tmp168E.jpg ]SCREENSHOT
+Thread#0:B:And I click on Aviva link and login button without providing credentials
+Thread#0:T:done: StepDefinitions.WhenIClickOnAvivaLinkAndLoginButtonWithoutProvidingCredentials() (1.7s)
+Thread#0:T:SCREENSHOT[ file:///D:\Manika\AvivaAssessment\TestResults\tmp1F08.jpg ]SCREENSHOT
+Thread#0:B:Then the result should be the error message display
+Thread#0:T:Erro Message displayed on clicking Login without providing credentials: Please fill in all 3 fields.
+Thread#0:T:done: StepDefinitions.ThenTheResultShouldBeTheErrorMessageDisplay() (0.0s)
+Thread#0:T:SCREENSHOT[ file:///D:\Manika\AvivaAssessment\TestResults\tmp211B.jpg ]SCREENSHOT
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #5/0 is finished on thread #0 as Succeeded within 22.6662664 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 2
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1

@@ -1,0 +1,48 @@
+package com.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import net.serenitybdd.core.pages.WebElementFacade;
+import net.serenitybdd.core.annotations.findby.FindBy;
+
+import net.thucydides.core.pages.PageObject;
+
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+public class ResultsPageObject extends PageObject { 
+
+    @FindBy(xpath="//a[@href='https://online.avivaindia.com/']")
+    private WebElementFacade avivaLoginLink;
+    
+    @FindBy(id="lnkLogin")
+    private WebElementFacade loginButton;
+
+
+    public String fifthLinkText(int linkNumber) {
+    	String linkText =getDriver().findElement(By.xpath("(//h3/a)["+linkNumber+"]")).getText();
+    	return linkText;
+    }
+    
+    public int linkCount() {
+    	List<WebElement> totalLinks = getDriver().findElements(By.xpath(".//div/h3/a"));
+    	return totalLinks.size();
+    }
+    
+    public void avivaLoginPage() {
+    	getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    	avivaLoginLink.click();
+    }
+    
+    public void invalidLogin() {
+    	loginButton.click();
+    }
+    
+    public String errorMessage() {
+    	String text = getDriver().findElement(By.id("spnError")).getText();
+    	return text;	
+    }
+}

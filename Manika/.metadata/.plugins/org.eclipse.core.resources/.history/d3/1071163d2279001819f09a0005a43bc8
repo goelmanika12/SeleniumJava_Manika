@@ -1,0 +1,54 @@
+package com.steps.serenity;
+
+import com.pages.GoogleSearchPageObject;
+import com.pages.ResultsPageObject;
+import net.thucydides.core.annotations.Step;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.is;
+import static org.junit.Assert.assertEquals;
+
+public class EndUserSteps {
+	
+	GoogleSearchPageObject gPage;
+    ResultsPageObject rPage;;
+
+    @Step
+    public void openGoogleSearch() {
+        gPage.open();
+    }
+
+    @Step
+    public void searchKeyword(String keyword) {
+        gPage.enter_keyword(keyword);
+    }
+    
+    @Step
+    public void clickSearch() {
+        gPage.lookup_keyword();
+    }
+
+    @Step
+    public void verifyNumberOfLinks(int count) {
+        int totalLinksCount = rPage.linkCount();
+        System.out.println("Total links count is: "+totalLinksCount);
+    	assertThat(totalLinksCount, is (count));
+    }
+
+    @Step
+    public void getFifthLinkText(int index) {
+        String link_text = rPage.fifthLinkText(index);
+        System.out.println("5th link text is: "+link_text);
+    }
+
+    @Step
+    public void invalidAvivaLogin() {
+        rPage.avivaLoginPage();
+        rPage.invalidLogin();
+    }
+    
+    @Step
+    public void verifyErrorMessage(String message) {
+        String errorDisplay = rPage.errorMessage();
+        assertEquals(message, errorDisplay);
+    }
+}

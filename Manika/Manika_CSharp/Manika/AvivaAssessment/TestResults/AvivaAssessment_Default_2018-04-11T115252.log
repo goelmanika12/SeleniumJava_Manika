@@ -1,0 +1,82 @@
+﻿2018-04-11T11:35:00.0907408+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-04-11T11:35:00.2397557+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-04-11T11:35:00.2397557+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\Manika\AvivaAssessment\AvivaAssessment\bin\Debug\AvivaAssessment.dll
+2018-04-11T11:35:00.2407558+05:30;VSTestExecutionThread;Info;Profile: Default
+2018-04-11T11:35:14.3611677+05:30;VSTestExecutionThread;Info;Discovering target: Default
+2018-04-11T11:35:14.3621678+05:30;VSTestExecutionThread;Info;Discovering tests from assembly: D:\Manika\AvivaAssessment\AvivaAssessment\bin\Debug\AvivaAssessment.dll
+2018-04-11T11:35:44.5711884+05:30;VSTestExecutionThread;Info;Log file: file:///D:\Manika\AvivaAssessment\TestResults\AvivaAssessment_Default_2018-04-11T113500.log
+2018-04-11T11:35:44.5721885+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution finished
+2018-04-11T11:36:11.0428353+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-04-11T11:36:11.0508361+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-04-11T11:36:11.0508361+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\Manika\AvivaAssessment\AvivaAssessment\bin\Debug\AvivaAssessment.dll
+2018-04-11T11:36:11.0518362+05:30;VSTestExecutionThread;Info;Profile: Default
+2018-04-11T11:36:16.0543364+05:30;VSTestExecutionThread;Info;Discovering target: Default
+2018-04-11T11:36:16.0553365+05:30;VSTestExecutionThread;Info;Discovering tests from assembly: D:\Manika\AvivaAssessment\AvivaAssessment\bin\Debug\AvivaAssessment.dll
+2018-04-11T11:36:47.1064413+05:30;VSTestExecutionThread;Info;Log file: file:///D:\Manika\AvivaAssessment\TestResults\AvivaAssessment_Default_2018-04-11T113611.log
+2018-04-11T11:36:47.1074414+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution finished
+2018-04-11T11:40:36.7947661+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-04-11T11:40:36.8097661+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-04-11T11:40:36.8107661+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\Manika\AvivaAssessment\AvivaAssessment\bin\Debug\AvivaAssessment.dll
+2018-04-11T11:40:36.8107661+05:30;VSTestExecutionThread;Info;Profile: Default
+2018-04-11T11:40:49.8137661+05:30;VSTestExecutionThread;Info;Discovering target: Default
+2018-04-11T11:40:49.8147661+05:30;VSTestExecutionThread;Info;Discovering tests from assembly: D:\Manika\AvivaAssessment\AvivaAssessment\bin\Debug\AvivaAssessment.dll
+2018-04-11T11:41:15.9467661+05:30;VSTestExecutionThread;Info;Log file: file:///D:\Manika\AvivaAssessment\TestResults\AvivaAssessment_Default_2018-04-11T114036.log
+2018-04-11T11:41:15.9477661+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution finished
+2018-04-11T11:52:52.2975661+05:30;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-04-11T11:52:52.3065661+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-04-11T11:52:52.3075661+05:30;VSTestExecutionThread;Info;SpecRun: running tests in D:\Manika\AvivaAssessment\AvivaAssessment\bin\Debug\AvivaAssessment.dll
+2018-04-11T11:52:52.3075661+05:30;VSTestExecutionThread;Info;Profile: Default
+2018-04-11T11:52:58.3105661+05:30;Thread#16;Info;Discovering target: Default
+2018-04-11T11:52:58.3125661+05:30;Thread#16;Info;Discovering tests from assembly: D:\Manika\AvivaAssessment\AvivaAssessment\bin\Debug\AvivaAssessment.dll
+Appdomain Disposed
+Test Suite Dump
+#0: AvivaAssessment/Default - 
+#1: Default - 
+#2: AvivaAssessment - 
+#3: Print 5th link text of Aviva - 
+#5: Search with Aviva keyword on Google home page and Invalid login on AVIVA login page, AVIVA - TestAssembly:AvivaAssessment/Feature:Print+5th+link+text+of+Aviva/Scenario:Search+with+Aviva+keyword+on+Google+home+page+and+Invalid+login+on+AVIVA+login+page%2c+AVIVA
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for AvivaAssessment, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\manikgoe\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.7.0\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #5/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given launch the google home page
+Thread#0:T:done: StepDefinitions.GivenLaunchTheGoogleHomePage() (9.4s)
+Thread#0:T:SCREENSHOT[ file:///D:\Manika\AvivaAssessment\TestResults\tmpF344.jpg ]SCREENSHOT
+Thread#0:B:And search with the string 'AVIVA'
+Thread#0:T:done: StepDefinitions.GivenSearchWithTheString("AVIVA") (0.1s)
+Thread#0:T:SCREENSHOT[ file:///D:\Manika\AvivaAssessment\TestResults\tmpF548.jpg ]SCREENSHOT
+Thread#0:B:When click on search button
+Thread#0:T:done: StepDefinitions.WhenClickOnSearchButton() (4.2s)
+Thread#0:T:SCREENSHOT[ file:///D:\Manika\AvivaAssessment\TestResults\tmp772.jpg ]SCREENSHOT
+Thread#0:B:And I click on Aviva link and login button without providing credentials
+Thread#0:T:done: StepDefinitions.WhenIClickOnAvivaLinkAndLoginButtonWithoutProvidingCredentials() (6.4s)
+Thread#0:T:SCREENSHOT[ file:///D:\Manika\AvivaAssessment\TestResults\tmp2243.jpg ]SCREENSHOT
+Thread#0:B:Then the result should be the error message display
+Thread#0:T:Erro Message displayed on clicking Login without providing credentials: Please fill in all 3 fields.
+Thread#0:T:done: StepDefinitions.ThenTheResultShouldBeTheErrorMessageDisplay() (0.0s)
+Thread#0:T:SCREENSHOT[ file:///D:\Manika\AvivaAssessment\TestResults\tmp2456.jpg ]SCREENSHOT
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #5/0 is finished on thread #0 as Succeeded within 26.0902 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0

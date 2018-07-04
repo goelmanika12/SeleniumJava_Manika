@@ -1,0 +1,21 @@
+verify -Dwebdriver.driver=chrome
+clean verify serenity:aggregate -Dwebdriver.driver=chrome
+
+clean verify -Dwebdriver.driver=iexplorer -Dwebdriver.ie.driver=drivers/IEDriverServer.exe
+
+
+<dependencyManagement>
+<dependencies>
+<dependency>
+<groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>htmlunit-driver</artifactId>
+        <version>3.0.0</version>
+        </dependency>
+        <dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-server</artifactId>
+    <version>3.0.0</version>
+</dependency>
+        
+</dependencies>
+</dependencyManagement>

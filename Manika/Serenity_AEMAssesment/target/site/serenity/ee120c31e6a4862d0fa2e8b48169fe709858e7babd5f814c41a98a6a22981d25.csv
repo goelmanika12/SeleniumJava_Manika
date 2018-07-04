@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Google search functionality","Search with AVIVA keyword on google home page and print the 5th link text","SUCCESS","2018-06-28T17:01:46.036+05:30[Asia/Calcutta]","0.0","23.09"
+"Google search functionality","Search with AVIVA keyword on google home page and invalid login on AVIVA login page","SUCCESS","2018-06-28T17:02:09.122+05:30[Asia/Calcutta]","0.0","21.57"

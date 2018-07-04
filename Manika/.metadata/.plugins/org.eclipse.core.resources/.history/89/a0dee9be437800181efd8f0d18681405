@@ -1,0 +1,23 @@
+Feature: Google search functionality
+  Open the google page and search with keyword AVIVA
+  verify the number of links returned and
+  print the 5th link text.
+  
+ Background:
+  Given launch the google home page
+ 
+ @PositiveScenario
+  Scenario Outline: Search with AVIVA keyword on google home page and print the 5th link text
+  And search with the string '<keyword>'
+    When click on search button
+    Then prints the 5th link text of results page.
+    And number of links should be <count>
+    
+    Examples:
+    | keyword | count |
+    | AVIVA   | 11    |
+
+  Scenario Outline: Looking up the definition of 'pear'
+    Given the user is on the Wikionary home page
+    When the user looks up the definition of the word 'pear'
+    Then they should see the definition 'An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.'
