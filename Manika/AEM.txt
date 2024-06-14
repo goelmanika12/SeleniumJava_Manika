@@ -16,6 +16,5 @@ clean verify -Dwebdriver.driver=iexplorer -Dwebdriver.ie.driver=drivers/IEDriver
     <artifactId>selenium-server</artifactId>
     <version>3.0.0</version>
 </dependency>
-        
 </dependencies>
 </dependencyManagement>
